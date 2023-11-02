@@ -1,0 +1,22 @@
+<div class="container-fluid body-container">
+    <div class="container list-container">
+        <ul class="list-group">
+            <% if(locals.Task){ %>
+                <% for(var i=0; i < Task.length; i++) {%>
+                    <li class="list-group-item itemNum<%=(i+1)%>">
+                        <input type="checkbox" class=<%=i+1 %>>
+                        <input type="text" placeholder="Default" value='<%=Task[i] %>'>
+                    </li>
+
+                    <% } %>
+                        <% }%>
+        </ul>
+        <form action="/lists/<%= locals.CurrList %>" method="post" name="New-item">
+            <input type="text" name="task" id="taskInput">
+            <button id="New-item">
+                <img src="/svg/plus-circle.svg" alt="New icon">
+            </button>
+        </form>
+
+    </div>
+</div>

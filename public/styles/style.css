@@ -1,0 +1,98 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-color: #ef9595;
+}
+
+.body-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 80vh;
+        margin-top: 25px;
+}
+.list-container {
+        position: relative;
+        border-color: black;
+        border-style: solid;
+        border-radius: 25px;
+        width: 25vw;
+        height: 80vh;
+        padding: 0;
+        overflow: auto;
+}
+
+.list-container::-webkit-scrollbar {
+        height: 90%;
+        width: 13px;
+        padding: 0;
+        margin: 0;
+}
+
+.list-container::-webkit-scrollbar-track {
+        color: #ef9594;
+}
+.list-container::-webkit-scrollbar-thumb {
+        background: #efb495;;
+        border-radius: 35px;
+}
+
+.list-container form input {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+        border-color: black;
+        background-color: #ef9595;
+        top: 100%;
+        width: 70%;
+        left: 5%;
+}
+.list-container button {
+        position: relative;
+        padding: 0;
+        border: none;
+        border-radius: 25px;
+        height: 35px;
+        width: 35px;
+        background-color: #ef9595;
+        left: 10%;
+        top: 93.8%;
+}
+.list-container button img {
+        height: 35px;
+        width: 35px;
+}
+.list-group {
+        border-radius: 25px;
+}
+.list-group-item {
+        background-color: #ef9595;
+        border-bottom: #efd595 0.5px solid;
+        border-left: #efd595 0.5px dashed;
+        border-right: #efd595 0.5px solid;
+}
+
+.list-group-item input:first-child {
+        padding-right: 2;
+}
+.list-group-item input:last-child {
+        position: relative;
+        background-color: #ef9595;
+        padding: 0;
+        width: 85%;
+        height: 40px;
+        border: none;
+}
+
+form input[name='listName'] {
+        position: absolute;
+        margin: 15px;
+        border-radius: 5px;
+        left: 24px;
+        background-color: #ef9595;
+}
+
+.striked {
+        text-decoration: line-through;
+}

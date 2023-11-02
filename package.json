@@ -1,0 +1,26 @@
+{
+        "name": "capstone3",
+        "version": "1.0.0",
+        "description": "Capstone 3 proj: The todo List",
+        "main": "index.js",
+        "type": "module",
+        "scripts": {
+                "start": "node index.js",
+                "seltest": "mvn test",
+                "dev": "nodemon -e ejs,css,js index.js"
+        },
+        "keywords": [
+                "project"
+        ],
+        "author": "akhil Pandya",
+        "license": "ISC",
+        "devDependencies": {
+                "ejs": "^3.1.9",
+                "express": "^4.18.2",
+                "prettier": "^3.0.3"
+        },
+        "dependencies": {
+                "bootstrap": "^5.3.1",
+                "cypress": "^13.3.0"
+        }
+}

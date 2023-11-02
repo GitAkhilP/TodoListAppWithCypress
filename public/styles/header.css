@@ -1,0 +1,26 @@
+.header-container {
+        margin-left: 50px;
+        padding-left: 0;
+        height: fit-content;
+        width: 100vw;
+}
+.list-option {
+        margin: 0;
+        padding: 0;
+}
+.header-container .row {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+        margin-top: 10px;
+}
+.header-container button {
+        position: relative;
+        border-radius: 13px;
+        width: 100px;
+        background-color: #efb495;
+        border-color: black;
+}
+
